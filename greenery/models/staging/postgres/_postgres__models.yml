@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: stg_addresses
+    description: "Custom Addresses"
+    columns:
+      - name: ADDRESS_ID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_events
+    description: "User event data capture"
+    columns:
+      - name: EVENT_ID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_order_items
+    description: "User event data capture"
+    columns:
+      - name: ORDER_ID
+        description: "The primary key for this table"
+        tests:
+          - not_null
+      
+  - name: stg_orders
+    description: "User Order data"
+    columns:
+      - name: ORDER_ID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_products
+    description: "Product Info"
+    columns:
+      - name: PRODUCT_ID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_promos
+    description: "Product promotions"
+    columns:
+      - name: PROMO_ID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_users
+    description: "Customer Data"
+    columns:
+      - name: USER_ID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

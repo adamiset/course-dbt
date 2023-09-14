@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+
+  - name: postgres # source for the Greenery data (customer, order etc.)
+    schema: public
+    database: raw # this is the name of the database that our source data lives in
+
+   #quoting:
+   #   database: false
+   #   schema: false
+   #   identifier: false
+
+   # freshness: # this is where we define freshness thresholds
+   #   warn_after: {count: 24, period: hour}
+   #   error_after: {count: 48, period: hour}
+
+    tables: # Greenery transactional data 
+      - name: users
+
+      - name: addresses
+
+      - name: events
+
+      - name: orders
+
+      - name: products
+
+      - name: order_items
+
+      - name: promos
