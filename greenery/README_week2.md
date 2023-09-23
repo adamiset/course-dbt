@@ -83,8 +83,8 @@ Part 2 (Tests):
 Part3 (dbt snap shots):
 
 Inventory on the below 4 product changed:
-  	Philodendron
-	Monstera
-	Pothos
+  	Philodendron,
+	Monstera,
+	Pothos,
 	String of pearls
 
