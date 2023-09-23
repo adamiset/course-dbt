@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_addresses
+  - name: stg_postgres__addresses
     description: "Custom Addresses"
     columns:
       - name: ADDRESS_ID
@@ -10,7 +10,7 @@ models:
           - unique
           - not_null
 
-  - name: stg_events
+  - name: stg_postgres__events
     description: "User event data capture"
     columns:
       - name: EVENT_ID
@@ -19,7 +19,7 @@ models:
           - unique
           - not_null
 
-  - name: stg_order_items
+  - name: stg_postgres__order_items
     description: "User event data capture"
     columns:
       - name: ORDER_ID
@@ -27,7 +27,7 @@ models:
         tests:
           - not_null
       
-  - name: stg_orders
+  - name: stg_postgres__orders
     description: "User Order data"
     columns:
       - name: ORDER_ID
@@ -36,7 +36,7 @@ models:
           - unique
           - not_null
 
-  - name: stg_products
+  - name: stg_postgres__products
     description: "Product Info"
     columns:
       - name: PRODUCT_ID
@@ -45,7 +45,7 @@ models:
           - unique
           - not_null
 
-  - name: stg_promos
+  - name: stg_postgres__promos
     description: "Product promotions"
     columns:
       - name: PROMO_ID
@@ -54,7 +54,7 @@ models:
           - unique
           - not_null
 
-  - name: stg_users
+  - name: stg_postgres__users
     description: "Customer Data"
     columns:
       - name: USER_ID

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_postgres__order_items
+    description: "user event data capture"
+    columns:
+      - name: order_id
+        description: "the primary key for this table"
+        tests:
+          - not_null

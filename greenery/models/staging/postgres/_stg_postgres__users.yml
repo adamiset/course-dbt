@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_postgres__users
+    description: "customer data"
+    columns:
+      - name: user_id
+        description: "the primary key for this table"
+        tests:
+          - unique
+          - not_null

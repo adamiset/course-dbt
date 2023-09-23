@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_postgres__orders
+    description: "user order data"
+    columns:
+      - name: order_id
+        description: "the primary key for this table"
+        tests:
+          - unique
+          - not_null

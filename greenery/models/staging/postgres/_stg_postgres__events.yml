@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_postgres__events
+    description: "user event data capture"
+    columns:
+      - name: event_id
+        description: "the primary key for this table"
+        tests:
+          - unique
+          - not_null
