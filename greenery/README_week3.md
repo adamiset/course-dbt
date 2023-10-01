@@ -73,8 +73,9 @@ DAG attached during the sumbission
 
 Part 6: (SQL in README_week3_sql)
 Inventory changed for the followin items between week2 and week 3
-
-String of pearls,
-Philodendron,
-Monstera,
+```
+String of pearls
+Philodendron
+Monstera
 Pothos
+```
