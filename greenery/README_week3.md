@@ -23,7 +23,7 @@ What is our overall conversion rate?
 - 62% (SQL in README_week2_sql)
 
 What is our conversion rate by product (in Percent)? (SQL in README_week2_sql)
-
+```
 41.176500%	Alocasia Polly
 49.230800%	Aloe Vera
 39.344300%	Angel Wings Begonia
@@ -54,7 +54,7 @@ What is our conversion rate by product (in Percent)? (SQL in README_week2_sql)
 47.457600%	Spider Plant
 60.937500%	String of pearls
 53.968300%	ZZ Plant
-
+```
 
 Part2:
 Created event_type_macro.sql
