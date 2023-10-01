@@ -1,6 +1,6 @@
 - Week 3 submission Part 1 SQLS:
 
-
+```
 -- Overall conversion rate    
 select
     count(distinct events.session_id) /(
@@ -24,8 +24,9 @@ from
     int_events_with_product_details events
 where
     events.event_type = 'checkout';
+```
 
-
+```
 -- Conversion rate by product
 select
     (
@@ -51,8 +52,9 @@ group by
     products.name,
  events_with_orders.product_id
  order by products.name;
-    
+ ```   
 
-
-    Part6 SQL:
+```
+Part6 SQL:
     select * from inventory_snapshot  where to_date(dbt_valid_from ) = to_date( '09/23/2023','mm/dd/yyyy') and to_date(dbt_valid_to)  = to_date( '10/01/2023', 'mm/dd/yyyy');
+```    
