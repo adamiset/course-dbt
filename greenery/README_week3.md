@@ -54,3 +54,27 @@ What is our conversion rate by product (in Percent)? (SQL in README_week2_sql)
 47.457600%	Spider Plant
 60.937500%	String of pearls
 53.968300%	ZZ Plant
+
+
+Part2:
+Created event_type_macro.sql
+Added macro config file under /greenery/macro/macro_schema.yml
+
+Part3:
+Created grant_role.sql and added as post hook in the model fact_event_type_agg_per_session.sql
+
+Part4:
+Imported the packages (listed in packages.yml)
+Used the 'event_types' in the model fact_event_type_agg_per_session.sql
+
+Part5:
+DAG attached during the sumbission
+
+
+Part 6: (SQL in README_week3_sql)
+Inventory changed for the followin items between week2 and week 3
+
+String of pearls,
+Philodendron,
+Monstera,
+Pothos

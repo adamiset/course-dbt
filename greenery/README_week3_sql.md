@@ -52,3 +52,7 @@ group by
  events_with_orders.product_id
  order by products.name;
     
+
+
+    Part6 SQL:
+    select * from inventory_snapshot  where to_date(dbt_valid_from ) = to_date( '09/23/2023','mm/dd/yyyy') and to_date(dbt_valid_to)  = to_date( '10/01/2023', 'mm/dd/yyyy');
