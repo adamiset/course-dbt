@@ -21,10 +21,10 @@ Part1:
 
 ```
 NAME	            INVENTORY
-String of pearls	0
-Pothos	            0
-Philodendron	    15
-Bamboo	            44
-Monstera	        50
-ZZ Plant	        53
+String of pearls        0
+Pothos                  0
+Philodendron	        15
+Bamboo	                44
+Monstera	            50
+ZZ Plant	            53
 ```
