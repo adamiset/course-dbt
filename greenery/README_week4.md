@@ -37,3 +37,16 @@ Part1:
     String of pearls
 ```
 
+
+
+```
+Part 2. Modeling challenge (Model name is :fact_product_funnel)
+
+How are our users moving through the product funnel?
+ 'page views' to 'add to cart' conversion is pretty good at an average of 50%
+ 'add to cart' to 'check out' is lower at an average of 40%
+
+Which steps in the funnel have largest drop off points?
+'add to cart' to 'check out' has the largest drop point
+
+```

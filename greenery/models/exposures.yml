@@ -1,0 +1,19 @@
+version: 2
+
+exposures:
+
+  - name: product_funnel
+    label: Greenery data funnel
+    type: dashboard
+    maturity: high
+    url: https://bi.tool/dashboards/1
+    description: >
+      Product funnel for Greenery data
+
+    depends_on:
+      - ref('fact_product_funnel')
+      - ref('stg_postgres__events')
+     
+    owner:
+      name: Ajay Damisetti
+      email: ajay.damisetti@test.com
