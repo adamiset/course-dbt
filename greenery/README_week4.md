@@ -18,8 +18,7 @@ Try running the following commands:
 Part1: 
 
 2. Which products had their inventory change from week 3 to week 4? (SQL in README_week4_sql.md)
-
-    ```
+```
     NAME	            INVENTORY
     String of pearls        0
     Pothos                  0
@@ -27,14 +26,14 @@ Part1:
     Bamboo	                44
     Monstera	            50
     ZZ Plant	            53
-    ```
-
+```
+```
   - Products had the most fluctuations in inventory?(SQL in README_week4_sql.md)
     String of pearls
-
- ```
+```
+```
   - Products that went out of stock:(SQL in README_week4_sql.md)
     Pothos
     String of pearls
- ```
+```
 

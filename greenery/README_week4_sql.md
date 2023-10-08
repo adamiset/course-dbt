@@ -25,7 +25,4 @@ order by inventory asc;
     group by snap1.product_id 
     having count(1) > 1)
     order by snap2.product_id, snap2.inventory;
-
-    Pothos
-    String of pearls
 ```
