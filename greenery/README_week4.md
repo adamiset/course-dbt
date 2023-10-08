@@ -43,19 +43,19 @@ Part1:
 Part 2. Modeling challenge (Model name is :fact_product_funnel)
 
 How are our users moving through the product funnel?
- 'page views' to 'add to cart' conversion is pretty good at an average of 50%
- 'add to cart' to 'check out' is lower at an average of 40%
+  'page views' to 'add to cart' conversion is pretty good at an average of 50%
+  'add to cart' to 'check out' is lower at an average of 40%
 
 Which steps in the funnel have largest drop off points?
-'add to cart' to 'check out' has the largest drop point
+  'add to cart' to 'check out' has the largest drop point
 
 ```
 
 
 ```
 Please create any additional dbt models needed to help answer these questions from our product team, and put your answers in a README in your repo.
-Created new model :fact_product_funnel
+  Created new model :fact_product_funnel
  
 Use an exposure on your product analytics model to represent that this is being used in downstream BI tools. Please reference the course content if you have questions.
-Defined the exposure under models/exposures.yml
+  Defined the exposure under models/exposures.yml
 ```
