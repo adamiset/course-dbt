@@ -50,3 +50,12 @@ Which steps in the funnel have largest drop off points?
 'add to cart' to 'check out' has the largest drop point
 
 ```
+
+
+```
+Please create any additional dbt models needed to help answer these questions from our product team, and put your answers in a README in your repo.
+Created new model :fact_product_funnel
+ 
+Use an exposure on your product analytics model to represent that this is being used in downstream BI tools. Please reference the course content if you have questions.
+Defined the exposure under models/exposures.yml
+```
